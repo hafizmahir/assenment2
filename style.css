@@ -1,557 +1,571 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
 }
 
+
 .navbar {
-    padding: 20px 0;
-    background-color: white;
+  padding: 20px 0;
+  background-color: white;
 }
 
 .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .logo img {
-    height: 30px;
+  height: 30px;
 }
 
 .logo span {
-    font-size: 20px;
-    font-weight: bold;
-    color: #e85c00;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e85c00;
 }
 
 .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .nav-links ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li:first-child a {
-    color: #000;
-    font-weight: bold;
+  color: #000;
+  font-weight: bold;
 
 }
 
 .nav-links li:nth-child(2) a,
 .nav-links li:nth-child(3) a {
-    color: #888;
+  color: #888;
 
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .nav-links a {
-    text-decoration: none;
-    font-size: 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .cart {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    .nav-links ul {
-        display: none;
-    }
 
-    .cart {
-        margin-left: auto;
-    }
+@media (max-width: 768px) {
+  .nav-links ul {
+    display: none;
+  }
+
+  .cart {
+    margin-left: auto;
+  }
 }
 
 
 .banner {
-    padding: 80px 0;
-    background-color: #fff;
+  padding: 80px 0;
+  background-color: #fff;
 }
 
 .banner-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
 
 .banner-text {
-    flex: 1;
+  flex: 1;
 }
 
 .banner-text h1 {
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .banner-text .highlight {
-    color: #e85c00;
+  color: #e85c00;
 
 }
 
 .banner-text p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
 }
 
 .banner-image {
-    flex: 1;
-    text-align: right;
+  flex: 1;
+  text-align: right;
 }
 
 .banner-image img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
+
 .plants {
-    padding: 80px 0;
-    text-align: center;
+  padding: 80px 0;
+  text-align: center;
 }
 
 .plants h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 .plants .highlight {
-    color: #e85c00;
+  color: #e85c00;
 }
 
 .plants p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 40px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .plant-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
 .plant-card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 .plant-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
 .plant-card h3 {
-    font-size: 18px;
-    margin: 10px 0 5px;
+  font-size: 18px;
+  margin: 10px 0 5px;
 }
 
 .plant-card p {
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .plant-card button {
-    background-color: #e85c00;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
+  background-color: #e85c00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
+
 .plant-lover {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 80px 120px;
-    background-color: white;
-    gap: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 120px;
+  background-color: white;
+  gap: 60px;
 }
 
 .plant-image {
-    position: relative;
-    width: 45%;
+  position: relative;
+  width: 45%;
 }
 
 .plant-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 
 .plant-image .badge {
-    position: absolute;
-    top: -25px;
-    right: -25px;
+  position: absolute;
+  top: -25px;
+  right: -25px;
 
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 
 .plant-text {
-    width: 50%;
+  width: 50%;
 }
 
 .plant-text h2 {
-    font-size: 32px;
-    margin-bottom: 24px;
-    font-weight: bold;
-    color: #000;
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  color: #000;
 }
 
 .plant-text ul {
-    list-style-type: disc;
-    padding-left: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .plant-text li {
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #333;
-    line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
 }
 
+
 .deals {
-    padding: 80px 120px;
-    background-color: #f3f6fb;
-    font-family: Arial, sans-serif;
+  padding: 80px 120px;
+  background-color: #f3f6fb;
+  font-family: Arial, sans-serif;
 }
 
 .deals-heading h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 .deals-heading .highlight {
-    color: orange;
-    font-weight: bold;
+  color: orange;
+  font-weight: bold;
 }
 
 .deals-heading {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 40px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
 }
 
 .deals-heading p {
-    color: #555;
-    max-width: 600px;
-    line-height: 1.6;
-    margin-bottom: 40px;
+  color: #555;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 40px;
 }
 
 .deals-content {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .deals-left {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
 }
 
 .deals-right {
-    flex: 2;
+  flex: 2;
 }
 
 .deal-card {
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .deal-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
 }
 
 .card-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
-    line-height: 1.4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  line-height: 1.4;
 }
 
 .card-text span {
-    display: block;
-    font-size: 14px;
-    text-decoration: underline;
-    margin-top: 6px;
-    font-weight: normal;
+  display: block;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-top: 6px;
+  font-weight: normal;
 }
 
 .join-section {
-    background-image: url('images/news-letter-bg.png');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 120px;
-    text-align: center;
-    color: white;
+  background-image: url('images/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 120px;
+  text-align: center;
+  color: white;
 }
 
 .join-content h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-    font-weight: bold;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .subscribe-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 600px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .subscribe-form input {
-    padding: 12px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 30px 0 0 30px;
-    width: 70%;
-    outline: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px 0 0 30px;
+  width: 70%;
+  outline: none;
 }
 
 .subscribe-form button {
-    padding: 12px 24px;
-    font-size: 16px;
-    border: none;
-    border-radius: 0 30px 30px 0;
-    background-color: orange;
-    color: white;
-    cursor: pointer;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
 }
 
 
 .real-footer {
-    background-color: #f8f8f8;
-    padding: 60px 120px;
-    font-family: Arial, sans-serif;
-    color: #555;
+  background-color: #f8f8f8;
+  padding: 60px 120px;
+  font-family: Arial, sans-serif;
+  color: #555;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .footer-left {
-    flex: 1;
-    max-width: 250px;
+  flex: 1;
+  max-width: 250px;
 }
 
 .footer-left .footer-logo {
-    width: 100px;
-    margin-bottom: 15px;
+  width: 100px;
+  margin-bottom: 15px;
 }
 
 .footer-left p {
-    font-size: 14px;
-    line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .footer-links {
-    display: flex;
-    flex: 2;
-    gap: 60px;
-    justify-content: center;
+  display: flex;
+  flex: 2;
+  gap: 60px;
+  justify-content: center;
 }
 
 .link-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .link-column a {
-    text-decoration: none;
-    color: #555;
-    font-size: 14px;
-    margin-bottom: 10px;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: color 0.3s;
 }
 
 .link-column a:hover {
-    color: orange;
+  color: orange;
 }
 
 .footer-social {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .footer-social img {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
+
+
 
 @media (max-width: 768px) {
 
-    .navbar .container {
-        flex-direction: row;
-    }
 
-    .nav-links ul {
-        display: none;
-    }
+  .navbar .container {
+    flex-direction: row;
+  }
 
-    .cart {
-        margin-left: auto;
-    }
+  .nav-links ul {
+    display: none;
+  }
 
-    .banner-content {
-        flex-direction: column-reverse;
-        text-align: left;
-    }
+  .cart {
+    margin-left: auto;
+  }
 
-    .banner-text h1 {
-        font-size: 28px;
-    }
 
-    .banner-text p {
-        font-size: 14px;
-    }
+  .banner-content {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
 
-    .banner-image {
-        text-align: center;
-    }
+  .banner-text h1 {
+    font-size: 28px;
+  }
 
-    .plant-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .banner-text p {
+    font-size: 14px;
+  }
 
-    .plant-lover {
-        flex-direction: column;
-        padding: 40px 20px;
-        gap: 30px;
-    }
+  .banner-image {
+    text-align: center;
+  }
 
-    .plant-image,
-    .plant-text {
-        width: 100%;
-    }
 
-    .plant-image .badge {
-        display: none;
-    }
+  .plant-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .deals {
-        padding: 60px 20px;
-    }
 
-    .deals-content {
-        flex-direction: column;
-    }
+  .plant-lover {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
 
-    .deals-left,
-    .deals-right {
-        width: 100%;
-    }
+  .plant-image,
+  .plant-text {
+    width: 100%;
+  }
 
-    .deal-card.big {
-        order: -1;
-    }
+  .plant-image .badge {
+    display: none;
+  }
 
-    .join-section {
-        padding: 60px 20px;
-    }
 
-    .subscribe-form {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .deals {
+    padding: 60px 20px;
+  }
 
-    .subscribe-form input,
-    .subscribe-form button {
-        width: 100%;
-        border-radius: 30px;
-    }
+  .deals-content {
+    flex-direction: column;
+  }
 
-    .real-footer {
-        padding: 40px 20px;
-    }
+  .deals-left,
+  .deals-right {
+    width: 100%;
+  }
 
-    .footer-container {
-        flex-direction: column;
-        gap: 30px;
-    }
+  .deal-card.big {
+    order: -1;
+  }
 
-    .footer-links {
-        flex-direction: column;
-        gap: 20px;
-        align-items: flex-start;
-    }
 
-    .footer-social {
-        justify-content: flex-start;
-    }
+  .join-section {
+    padding: 60px 20px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+    border-radius: 30px;
+  }
+
+
+  .real-footer {
+    padding: 40px 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 768px) {
-    .plant-grid {
-        grid-template-columns: repeat(2, 1fr);
+  .plant-grid {
+    grid-template-columns: repeat(2, 1fr);
 
-    }
+  }
 
-    .plant-card:nth-child(n+7) {
-        display: none;
+  .plant-card:nth-child(n+7) {
+    display: none;
 
-    }
+  }
 }
